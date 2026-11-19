@@ -1,0 +1,26 @@
+# Use this workspace to collaborate
+workspace:
+  id: 2c8235ef-0a7a-4cff-911f-bcd9b22cbdd4
+resourceNameMappings:
+  specs:
+    - ../postman/specs/SafeStar_Spec.yaml: SafeStar_Spec.yaml
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+
+cloudResources:
+  collections:
+    ../postman/collections/SafeStar Service API: 60318070-f29127e2-ff89-4edc-8b87-daa18d86907d
+  environments:
+    ../postman/environments/Local.environment.yaml: 60318070-63e31fe2-9fe4-4583-b035-57edce9392f5
+    ../postman/environments/Prod.environment.yaml: 60318070-611adea2-93ae-47c4-8002-a8f3aa4ba7f2
+    ../postman/environments/Test.environment.yaml: 60318070-39e8d87b-bf61-4ecb-908b-12fce80283f4
+  specs:
+    ../postman/specs/SafeStar_Spec.yaml: ccad57e6-f0ff-43b4-8a6e-129e7e7740ea
+  globals:
+    ../postman/globals/workspace.globals.yaml: 188fa7f7-8fe6-4807-8adc-62c1817be621
+
+# All resources in the `postman/` folder are automatically registered in Local View.
+# Point to additional files outside the `postman/` folder to register them individually. Example:
+#localResources:
+#  collections:
+#    - ../tests/E2E Test Collection/
