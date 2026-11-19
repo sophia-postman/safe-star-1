@@ -5,5 +5,12 @@ headers:
   Accept: application/json
 pathVariables:
   id: "1001"
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test("Status code is 200", function () {
+          pm.response.to.have.status(200);
+      });
+    language: text/javascript
 examples: ./.resources/Retrieve Driver Safety Profile.resources/examples
 order: 2000

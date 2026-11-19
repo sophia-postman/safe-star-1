@@ -52,7 +52,7 @@ paths:
             example: {}
       responses:
         '201':
-          description: 201 Created - Profile Created
+          description: 201 Created - Profile Created!
           content:
             application/json:
               schema:
